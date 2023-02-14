@@ -1,0 +1,88 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+}
+
+.sidebar {
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: baseline;
+  align-items: baseline;
+  padding: 1rem;
+  flex-shrink: 0;
+  flex-grow: 4;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 100%;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-grow: 1;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.card-wrapper {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.card {
+  padding: 32px;
+  flex-basis: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
